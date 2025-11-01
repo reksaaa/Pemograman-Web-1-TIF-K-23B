@@ -1,0 +1,39 @@
+/* selector html h1 dll*/
+/* property: value;*/
+
+html {
+  background-color: white;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+#lightblue-heading {
+  color: lightblue;
+}
+
+.red-heading {
+  color: red;
+}
+
+.blue-heading {
+  color: blue;
+}
+
+.green-heading {
+  color: green;
+}
+
+p[draggable="false"] {
+  color: red;
+}
+
+* {
+  color: red;
+}
