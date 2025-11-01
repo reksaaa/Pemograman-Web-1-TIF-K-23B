@@ -1,5 +1,4 @@
 h1 {
-  color: blue;
   font-weight: bold;
 
   /* 1 px = 1/96th inch / 0.26 mm*/
@@ -9,11 +8,11 @@ h1 {
   /* 1px 1pt 1em 1rem */
 
   font-size: 20px;
-  font-family: sans-serif;
 }
 
 #pixel {
   font-size: 20px;
+  font-family: monospace;
 }
 
 #point {
@@ -34,4 +33,39 @@ footer {
 
 html {
   font-size: xx-large;
+}
+
+#helvetica {
+  font-family: Helvetica, sans-serif;
+}
+
+#arial {
+  font-family: Arial, sans-serif;
+}
+
+#serif {
+  font-family: serif;
+}
+
+#sansserif {
+  font-family: sans-serif;
+}
+
+#cursive {
+  font-family: cursive;
+}
+
+#fantasy {
+  font-family: fantasy;
+}
+
+#monospace {
+  font-family: monospace;
+}
+
+#dancing-script-400 {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
